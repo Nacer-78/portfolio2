@@ -1,0 +1,138 @@
+body{
+    font-family: arial;
+    background-image: url(Images/Background_HomePage.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+section.section1{
+  height: 500px;
+  width: 100%;
+  background-image: url(Images/pousse_seringue.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+section{
+  height: fit-content;
+}
+
+h1{
+  padding: 150px 0 0 0;
+  margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #E8AD88, 0 0 1em #E8AD88, 0 0 0.2em #E8AD88;
+}
+
+p.couverture{
+  margin: 20px 0 0 0;
+  font-size: 30px;
+  font-style: italic;
+  text-shadow: 1px 1px 2px #E8AD88, 0 0 1em #E8AD88, 0 0 0.2em #E8AD88;
+}
+
+div.paragraphe{
+  margin-bottom: 25px;
+  border-bottom: 1px solid black;
+}
+
+div.paragraphe h2{
+  font-size: 45px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+div.paragraphe h2.presentation{
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+div.paragraphe h3{
+  font-size: 30px;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+div.paragraphe p{
+  font-size: 25px;
+}
+
+img.carte_velleman{
+  width: 300px;
+  height: 250px;
+}
+
+img.Poste_de_travail{
+  width: 400px;
+  height: 250px;
+}
+
+img.Logo_logiciel{
+  width: 200px;
+  height: 150px;
+  border-radius: 25px;
+}
+
+img.Branchement_materiel{
+  width: 750px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table{
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.Diagramme_sequence{
+  width: 75%; 
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+img.algo{
+  padding: 0px 50px 0px 50px;
+}
+
+div.paragraphe_fin{
+  margin-bottom: 25px;
+}
+
+div.paragraphe_fin h2{
+  font-size: 45px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+div.paragraphe_fin h3{
+  font-size: 30px;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+div.paragraphe_fin p{
+  font-size: 25px;
+}
+
+pre{
+  background-color: transparent; 
+  border: 1px solid black;
+  color: black; 
+  width: 1250px; 
+  height: 250px; 
+  overflow: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}

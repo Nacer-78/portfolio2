@@ -1,0 +1,91 @@
+body{
+    font-family: arial;
+    background-image: url(Images/Background_HomePage.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+aside{
+  background: linear-gradient(45deg, #E8AD88,  #F1CEB9, #E8AD88);
+  background-size: cover;
+  width: 15%;
+  padding-top: 3em;
+  padding-bottom: 40px;
+  padding-left: 3em;
+  padding-right: 3em;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+}
+
+h2{
+  text-align: center;
+}
+
+nav{
+  display: block;
+  text-align: center;
+  margin-top: 175px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  margin: 0 0 50px 0;
+  padding: 0;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+}
+
+li:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+li:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a.active{
+  text-decoration: none;
+  color: black;
+  text-shadow: 1px 1px 1px white, 0 0 1em white, 0 0 0.2em white;
+}
+
+div.zone_droite{
+  display: block;
+  width: 78%;
+  float: right;
+  height: 100vh;
+  margin-right: 0;
+}
+
+div.paragraphe h2{
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+div.paragraphe p{
+  font-size: 20px;
+}

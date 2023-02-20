@@ -1,0 +1,146 @@
+body{
+    font-family: arial;
+    background-image: url(Images/Background_HomePage.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    display: flex;
+}
+
+body.article1{
+  font-family: arial;
+  background-image: url(Images/Background_HomePage.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+div.main{
+  width: 100%;
+}
+
+p.partie{
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+a, a:active{
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+div.Voiture_autonome{
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.477);
+  position: relative;
+  top: 15px;
+  background-image: url(Images/voiture_autonome.jpg);
+  background-size: cover;
+  border-style: solid;
+  border-width: 10px;
+  border-color:  #E8AD88;
+}
+
+div.Oscaro{
+  margin-right: auto;
+  margin-left: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.477);
+  position: relative;
+  top: 15px;
+  background-image: url(Images/Oscaro.jpg);
+  background-size: cover;
+  border-style: solid;
+  border-width: 10px;
+  border-color:  #E8AD88;
+}
+
+div.SLE{
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+  height: 100px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.477);
+  position: relative;
+  top: 15px;
+  background-image: url(Images/Les_echos_start.jpg);
+  background-size: cover;
+  border-style: solid;
+  border-width: 10px;
+  border-color:  #E8AD88;
+}
+
+div.partie{
+  margin-right: auto;
+  margin-left: auto;
+  width: 210px;
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.477);
+  position: relative;
+  top: 15px;
+  background-image: url(Images/Veille_techno.jpg);
+  background-size: cover;
+  border-style: solid;
+  border-width: 10px;
+  border-color:  #E8AD88;
+}
+
+h1.partie{
+  text-align: center;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+h1{
+  font-size: 30px;
+  margin-bottom: 5px;
+  margin-top: 40px;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+span{
+  font-weight: bold;
+}
